@@ -1,0 +1,8 @@
+[build]
+  base = "steam-marketplace-vue-js-app"
+  command = "npm run build"
+  publish = "steam-marketplace-vue-js-app/dist"
+
+[build.environment]
+  NODE_VERSION = "18.20.3"
+  NPM_FLAGS = "--legacy-peer-deps"
